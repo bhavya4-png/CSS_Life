@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter{
+            font-size: 150px;
+            color:red;
+        }
+        p::first-line{
+            color:blue;
+        }
+        p::before{
+            content:"who r u ";
+            font-size: 50px;
+        }
+        p::after{
+           content: " Tqx";
+            font-size: 30px;
+        }
+        li::marker{
+            content:"@" ;
+            font-size: 30px;  
+        }
+        input::placeholder{
+            color:darkgreen;
+            border: 10px;
+            padding:opx 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Desktop</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <ul>
+        <li> list-1</li>
+        <li> list-2</li>
+    </ul>
+    <form action="">
+        <input type="text" placeholder="Enter your name">
+    </form>
+</body>
+</html>

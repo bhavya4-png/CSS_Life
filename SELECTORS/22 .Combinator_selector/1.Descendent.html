@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ajji p{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <p> desendent selector= selects both direct children & nested children <br> symbol is space ()</p>
+    <div class="ajji">
+        <div class="dodd-maga">
+            <h1> dodd-maga-son </h1>
+            <p> dodd-maga-daug</p>
+        </div>
+        <div class="chikk-maga">
+            <h1> chikk-maga-son </h1>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ajji p{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <p> desendent selector= selects both direct children & nested children <br> symbol is space ()</p>
+    <div class="ajji">
+        <div class="dodd-maga">
+            <h1> dodd-maga-son </h1>
+            <p> dodd-maga-daug</p>
+        </div>
+        <div class="chikk-maga">
+            <h1> chikk-maga-son </h1>
+        </div>
+        <p> adopted-daug</p>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .father >p{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <p> desendent selector= selects direct children  <br> symbol is greater than (>) </p>
+    <div class="father">
+        <div class=" 1st son">
+            <h1> 1st son's -son </h1>
+            <p> 1st son's -daug</p>
+        </div>
+        <div class="2nd son">
+            <h1> 2nd son's -son </h1>
+        </div>
+        <p> adopted-daug</p>
+    </div>
+</body>
+</html>
+
+
+

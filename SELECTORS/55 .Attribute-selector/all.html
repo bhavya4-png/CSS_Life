@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type]{
+            background-color: yellow;
+        }
+        input[type="text"]{
+            background-color: aqua;
+        } 
+        input[placeholder~='email']{
+            background-color: chartreuse;
+        }
+        p[lang|='en']{
+            background-color: pink;
+        }
+        a[href^='https']{
+            background-color: darkorange;
+        }
+        a[href$='.com']{
+            background-color: LIME;
+        }
+        input[placeholder *='email']{
+            background-color: lightskyblue;
+        } 
+    </style>
+</head>
+<body>
+    <h1> Prime Minister </h1>
+    <form action="">
+        <label for="">User-name::</label> 
+        <input type="text" placeholder="Enter your name"> <br><br>
+        <label for="">User-email</label>
+        <input type="email" placeholder="Enter your email"> <br><br>
+    </form>
+    <p lang="en-us">Lorem ipsum dolor sit amet.</p>
+     <a href="https://www.google.com"> GOOGLE</a> <BR></BR>
+    <a href="https://www.amazon.com">AMAZON</a>
+</body>
+</html>
