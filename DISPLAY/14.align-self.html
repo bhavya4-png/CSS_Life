@@ -5,29 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+
+        }
         .main{
             height: 600px;
-            width: 800px;
+            width: 600px;
             border: 2px solid black;
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            /* justify-content: space-evenly; */
         }
         .box{
             height: 100px;
             width: 100px;
             background-color: lightblue;
             border: 2px solid ;
-        }
-          #box1{
-            flex-grow: 2;
+            flex-direction: row;
         }
         #box2{
-            flex-grow: 2;
+            flex-basis: 300px;
+             
         }
-         #box3{
-            flex-grow: 4;
-        }
+         #box1{
+            flex-grow: 3;
+             align-self: flex-end;
+        } 
     </style>
 </head>
 <body>
@@ -36,10 +40,6 @@
         <div class="box" id="box2">box-2</div>
         <div class="box" id="box3">box-3</div>
         <div class="box" id="box4">box-4</div>
-
-
     </div>
 </body>
 </html>
-
-<!-- default=0 -->
