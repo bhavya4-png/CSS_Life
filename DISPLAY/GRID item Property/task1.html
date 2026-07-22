@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            border: 10px solid yellow;
+            display: grid;
+            height: 700px;
+           grid-template-rows: 200px 100px 200px ; 
+           gap: 10px 10px; 
+        }
+        .box{
+            padding: 13px;
+            border: 3px solid blue;   
+        }
+        #box-1{
+            background-color:rgb(102, 241, 121);
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-column: 1/4;
+
+        }
+
+         #box-11{
+            background-color: rgb(102, 241, 121);
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-column: 1/4;
+        }
+         #box-5{
+            background-color: rgb(102, 241, 121);
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-row: 2/2;
+        }
+
+          #box-9{
+                        background-color: rgb(102, 241, 121);
+          }
+          #box-10{
+                        background-color: rgb(102, 241, 121);
+          }
+      
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box" id="box-1">box-1</div>
+
+        <div class="box" id="box-5">box-5</div>
+        <div class="box" id="box-6">box-6</div>
+        <div class="box" id="box-7">box-7</div>
+        <div class="box" id="box-8">box-8</div>
+        <div class="box" id="box-9">box-9</div>
+        <div class="box" id="box-10">box-10</div>
+        <div class="box" id="box-11">box-11</div>
+       
+</body>
+</html>

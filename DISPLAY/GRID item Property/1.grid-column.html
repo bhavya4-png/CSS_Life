@@ -13,28 +13,17 @@
             border: 10px solid yellow;
             display: grid;
             height: 700px;
-
-           /* grid-template-columns: 200px 100px 200px ; 
-            grid-auto-flow: column;
-            justify-items: center; 
-            align-items: space-evenly;
-            grid-auto-columns: auto;
-            row-gap: 10px;
-            column-gap: 30px;
-            gap: 200px; */
-
-            grid-template-rows: 200px 100px 200px ; 
-            grid-auto-flow: column;
-            justify-items: center; 
-            align-items: space-evenly;
-            grid-auto-columns: auto;
-            row-gap: 10px;
-            column-gap: 30px;
-            gap: 50px;   
+           grid-template-rows: 200px 100px 200px ;  
         }
         .box{
             padding: 13px;
             border: 3px solid blue;   
+        }
+        #box-1{
+            background-color: pink;
+            /* grid-column-start: 1;
+            grid-column-end: 4; */
+            grid-column: 1/4;
         }
     </style>
 </head>
@@ -46,11 +35,6 @@
         <div class="box" id="box-4">box-4</div>
         <div class="box" id="box-5">box-5</div>
         <div class="box" id="box-6">box-6</div>
-        
     </div>
 </body>
 </html>
-
-  /* grid-row-start: 1;
-            grid-row-end: 3; */
-            grid-row: 1/3;
