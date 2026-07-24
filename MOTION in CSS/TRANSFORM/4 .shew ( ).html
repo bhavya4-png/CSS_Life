@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 800px;
+            height: 600px;
+            border: 2px white dotted;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: paleturquoise;
+                 /* 1.translate */
+                     /* x-axis */
+            /* transform: translateX(300px); */
+                     /* y-axis */
+            /* transform: translateY(400px); */
+                    /* x-y-axis */
+            /* transform: translate(100px,100px); */
+
+                    /* 2.rotate */
+                 /* rotate- 2 D */
+            /* transform: rotate(270deg); */
+               /* rotate- 3 D ( axis) */
+            /* transform: rotateX(45deg); */
+            /* transform: rotateY( 60deg); */
+
+                    /* 3. scale */
+                    /* x-axis */
+            /* transform:scaleX(0.1); */
+            /* transform: scaleX(0.01); */
+            /* transform: scaleX(2); */
+                    /* y-axis */
+            /* transform:scaleY(0.1); */
+            /* transform: scaleY(0.2); */
+            /* transform: scaleY(0.01); */
+                     /* x-y-axis */
+            /* transform: scale(0.5,0.9);
+            color: rgb(48, 7, 233); */
+
+                     /* 4. skew */
+                      /* x-axis */
+            /* transform: skewX(10deg); */
+            /* transform: skewX(20deg); */
+            /* transform: skewX(45deg); */
+            /* transform: skewX(100deg); */
+                      /* y-axis */
+            /* transform: skewY(10deg); */
+            /* transform: skewY(20deg); */
+            /* transform: skewY(45deg); */
+
+                    /* multiple-transform */
+            transform: translate(350px,200px) rotate(45deg) ;
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child"> 
+            box
+        </div>
+    </div>
+</body>
+</html>

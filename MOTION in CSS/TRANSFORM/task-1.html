@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            width: 800px;
+            height: 610px;
+            border: 2px white dotted;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            background-color: paleturquoise;
+          
+
+        }
+        #b2{
+            transform: translate(150px, 10px);
+        }
+        #b3{
+            transform: translate(500px, -100px);
+        }
+        #b4{
+            transform: translate(150px, 10px);
+        }
+         #b5{
+            transform: translate(500px, -100px);
+        }
+         #b1{
+            transform: translate(10px, 10px);
+        }
+        #b6{
+            transform: translate(1px, 1px);
+        }
+          #b7{
+            transform: translate(690px, -100px);
+        }
+         #b8{
+            transform: translate(690px, -690px);
+        }
+        #b9{
+            transform: translate(300px,-590px)  ;
+            /* transform: rotate(10deg); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child" id="b1">1</div>
+        <div class="child" id="b2">2</div>
+        <div class="child" id="b3">3</div>
+        <div class="child" id="b4">4</div>
+        <div class="child" id="b5">5</div>
+        <div class="child" id="b6">6</div>
+        <div class="child" id="b7">7</div>
+        <div class="child" id="b8">8</div>
+        <div class="child" id="b9">9</div>
+    </div>
+</body>
+</html>
